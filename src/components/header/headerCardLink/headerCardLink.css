@@ -1,0 +1,21 @@
+.app__header__link {
+  display: flex;
+  .app__header__link__content {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    .app__header__link__content__title {
+      font-size: 0.5em;
+      text-decoration: none;
+    }
+    img {
+      width: 1.3rem;
+    }
+  }
+}
+
+.border {
+  border: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.283);
+  padding-left: 1rem;
+}

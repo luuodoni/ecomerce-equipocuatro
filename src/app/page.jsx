@@ -1,17 +1,6 @@
-import HeaderCardLink from "@/components/header/headerCardLink/HeaderCardLink";
-import imagenPrueba from '../../public/next.svg'
-import './globals.css'
-
+import "./globals.css";
+import HeaderNavTop from "@/components/header/headerNavTop/HeaderNavTop";
 
 export default function Home() {
-  return (
-    <HeaderCardLink
-     title='Prueba'
-     url='#'
-     img={imagenPrueba}
-     alt='Imagen Prueba'
-     classFlex=''
-    />
-  );
+  return <HeaderNavTop />;
 }
-
