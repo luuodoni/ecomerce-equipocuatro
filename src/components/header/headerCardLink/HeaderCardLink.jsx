@@ -8,9 +8,7 @@ const HeaderCardLink = ({ url, img, alt, classFlex, title, classAdd }) => {
       <div className={`${classFlex} app__header__link__content`}>
         <picture>
           <Image
-            className="w-[3rem]"
-            width="auto"
-            height="auto"
+            className="app__header__link__content__img"
             src={img}
             alt={alt}
           />
