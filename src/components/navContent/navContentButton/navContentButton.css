@@ -1,0 +1,22 @@
+.app__content__card__nav__content__button {
+  background-color: rgb(0, 94, 255);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .3rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  margin: none;
+  cursor: pointer;
+  img {
+    width: 1rem;
+  }
+}
+
+.app__content__card__nav__content__button__picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+}

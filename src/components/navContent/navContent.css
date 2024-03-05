@@ -1,0 +1,12 @@
+.app__content__card__nav {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.app__content__card__nav__content {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}

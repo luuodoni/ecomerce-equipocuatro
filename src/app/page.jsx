@@ -1,6 +1,6 @@
 import "./globals.css";
-import HeaderNavTop from "@/components/header/headerNavTop/HeaderNavTop";
+import NavContent from "@/components/navContent/NavConteng";
 
 export default function Home() {
-  return <HeaderNavTop />;
+  return <NavContent></NavContent>;
 }
